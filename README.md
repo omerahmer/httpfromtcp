@@ -1,5 +1,3 @@
-# httpfromtcp
-
 # Custom HTTP/1.1 Server in Go
 
 A fully functional HTTP/1.1 server implemented **from scratch** in Go using raw TCP sockets
@@ -12,7 +10,7 @@ A fully functional HTTP/1.1 server implemented **from scratch** in Go using raw 
   Supports GET requests, parses request lines, headers, and handles both plaintext and binary payloads
 
 - **Response Generation**  
-  Builds HTTP responses from scratch, including status line, headers, and body content
+  Builds HTTP responses from scratch, including status line, headers, body content, and optionally, trailers
 
 - **Header Management**  
   Allows setting and merging multiple headers for each response
